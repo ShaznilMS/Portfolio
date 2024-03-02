@@ -1,4 +1,4 @@
-package Java.Tests;
+package Java.Logic;
 
 import java.util.Scanner;
 
