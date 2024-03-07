@@ -1,0 +1,100 @@
+<body>
+    
+    <div class="container">
+
+        <form action="#" class="formulario">
+            <h1 class="title">Recuperar senha</h1>
+
+            <div class="input-field b-bottom">
+                <input type="text" name="user_data" id="email" placeholder="Seu email *" required>
+                <i class="fas fa-at"></i>
+            </div>
+
+            <div class="input-field">
+                <button>Submeter</button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+<style>
+
+    * {
+    color: #247ba0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(80deg, #1b98e0, #6eb9ff);
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #13293d;
+}
+
+.input-field {
+    width: 300px;
+    height: 40px;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-field.b-bottom {
+    display: flex;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 2px;
+    border-bottom: 2px solid #1b98e0;
+}
+
+.input-field input {
+    width: 260px;
+    height: 36px;
+    border: 0;
+}
+
+.input-field button {
+    width: 300px;
+    height: 40px;
+    border: 0;
+    background-color: #1b98e0;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    font-weight: 900;
+}
+
+.input-field button:hover {
+    background-color: #247ba0;
+}
+
+.input-field.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+</style>

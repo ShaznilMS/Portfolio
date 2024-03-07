@@ -15,23 +15,19 @@ app.get('/', function(req, res){
 })
 
 app.get('/entrar', function(req, res){
-    res.send('Página encontrada!')
+    res.render('auth/entrar')
 })
 
-app.get('/criar', function(req, res){
-    res.send('Página encontrada!')
+app.get('/registrar', function(req, res){
+    res.render('auth/registrar')
 })
 
-app.get('/home', function(req, res){
-    res.send('Página encontrada!')
+app.get('/1799312d41b066711ae55a5954ee4f664c2a620f', function(req, res){
+    res.render('auth/recuperarSenha')
 })
 
-app.get('/opcoes', function(req, res){
-    res.send('Página encontrada!')
-})
-
-app.get('/usuarios', function(req, res){
-    res.send('Página encontrada!')
+app.get('/1893c692e7eef1bd59d306b129e3e7cc6ef71d72', function(req, res){
+    res.render('auth/confirmarOPT')
 })
 
 app.listen(PORT , () => {
